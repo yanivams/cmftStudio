@@ -9,4 +9,4 @@
 	url = https://github.com/dariomanesku/cmft
 [submodule "dependency/dm"]
 	path = dependency/dm
-	url = https://github.com/dariomanesku/dm
+url=https://github.com/yanivams/dm
