@@ -1,6 +1,7 @@
 _build/
 _projects/gmake-linux/
 _projects/gmake-mingw-gcc/
+_projects/gmake-linux-gcc/
 _projects/gmake-osx/
 _projects/vs2008/
 _projects/vs2010/
