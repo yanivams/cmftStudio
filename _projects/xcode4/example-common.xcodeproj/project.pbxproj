@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EE2525536642E506CA2A97 /* entry_asmjs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FFB4C0D41E728094A4B6546 /* entry_asmjs.cpp */; };
+		132C53B05EF52B322E0B0A0B /* entry_x11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32DF1BCE6CA0180B2F5270F3 /* entry_x11.cpp */; };
+		1586272C34946FC07D41522B /* utf8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E32EBA43F45FA62E4B49C3 /* utf8.cpp */; };
+		16392A2F1E4E69344DB70286 /* cube_atlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC306639A9665E40025370 /* cube_atlas.cpp */; };
+		172412C21CBC10DE67CF0710 /* entry_windows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 245D6E0118055A5B2B1677D0 /* entry_windows.cpp */; };
+		1EC37C0E23270B201F9C69AD /* bounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44A7368A0423006356A67FA5 /* bounds.cpp */; };
+		20E5563518085E4D79912FF8 /* indexbufferdecompression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68252313297F45664E280231 /* indexbufferdecompression.cpp */; };
+		218665827C477FBB622A1B22 /* entry_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45223CF16D604566525C55E9 /* entry_glfw.cpp */; };
+		22527C602F483BA04ED76CB4 /* entry_winrt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CF512C412EB0E8F3A011E81 /* entry_winrt.cpp */; };
+		236074F5277458676A6815DA /* entry_android.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1326265E5E357CA71EDB0574 /* entry_android.cpp */; };
+		27077BAF77DB3D130A887DB8 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 40F529BD778A477A62253D9E /* imgui.cpp */; };
+		27937A6576246B061E3826CC /* nanovg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A10408B43FB46004A1656CF /* nanovg.cpp */; };
+		2AF50BDA3199273C0B9613C3 /* entry_qnx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67AC24EC79BA550C6A534C17 /* entry_qnx.cpp */; };
+		2B8F78151D433E232C02019B /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 264F0C673F7955757A9B4369 /* imgui.cpp */; };
+		3046088B5CBD016051CF0380 /* imgui_wm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6797235730675ADC3722730E /* imgui_wm.cpp */; };
+		3117231F395919597B921982 /* bgfx_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28CA1EC32C10515F276A5A91 /* bgfx_utils.cpp */; };
+		3D0937A2261213B75DEB4866 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A2D4ADE52FA238764374E8D /* camera.cpp */; };
+		3DA760791C99775146D75C9B /* cmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7AC00E4E1F574C65028D6C32 /* cmd.cpp */; };
+		3DD502156981787C273F26B8 /* dbg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B977E075F4325C05BDB7DBB /* dbg.cpp */; };
+		427F6DEC468D046715F510D8 /* entry_nacl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0530058A10172CA55DF17A80 /* entry_nacl.cpp */; };
+		46D03303176259BB41935164 /* input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2302452F1CCE3FBF560E049D /* input.cpp */; };
+		47D5723009C37F9105CE35E0 /* text_buffer_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14747E572BD0431E75F53761 /* text_buffer_manager.cpp */; };
+		4CB33002300938EB2ABE08D6 /* indexbuffercompression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 080C15D63D67235C17F07BC5 /* indexbuffercompression.cpp */; };
+		4CF77FEB652B138404537B21 /* entry_sdl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 425F10C6194D52763D6C773F /* entry_sdl.cpp */; };
+		516869AE511A494426C25BA2 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C3F7B2C734413CA42A7556A /* imgui_draw.cpp */; };
+		5ACF4BD12EA9779D0B9104B7 /* font_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71CE7D9D3B6E50C328CF6979 /* font_manager.cpp */; };
+		5AD96E203BF761A55731023C /* entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61A52C0D180D7E3E235E5EE5 /* entry.cpp */; };
+		5B82645639EE12B10F515D76 /* text_metrics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D06CFA063421F174C9672A /* text_metrics.cpp */; };
+		6B5678D87B031E110718353B /* imgui_node_graph_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51D9427E4952454A79667709 /* imgui_node_graph_test.cpp */; };
+		7C3D4CC104D314580B370401 /* ocornut_imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CE0603B4C051D4A04BB609E /* ocornut_imgui.cpp */; };
+		7DCB6DA142C0406A6B7841CB /* scintilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEC328C03197C2F70AF2F1C /* scintilla.cpp */; };
+		7F7103FA32BB0E3F3A374986 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67F1076C737036E82DB7260C /* imgui_demo.cpp */; };
+		7FFE5FEB78AB55F0766651B3 /* nanovg_bgfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A531DAF750370B8118F455B /* nanovg_bgfx.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		033A4D8518453D2860372796 /* vs_font_basic.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_font_basic.bin.h; path = ../../dependency/bgfx/examples/common/font/vs_font_basic.bin.h; sourceTree = "<group>"; };
+		0530058A10172CA55DF17A80 /* entry_nacl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_nacl.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_nacl.cpp; sourceTree = "<group>"; };
+		080C15D63D67235C17F07BC5 /* indexbuffercompression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = indexbuffercompression.cpp; path = "../../dependency/bgfx/3rdparty/ib-compress/indexbuffercompression.cpp"; sourceTree = "<group>"; };
+		0A131C7D466473E050580F45 /* fontstash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fontstash.h; path = ../../dependency/bgfx/examples/common/nanovg/fontstash.h; sourceTree = "<group>"; };
+		0C8061E07384115376387EBC /* vs_imgui_color.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_imgui_color.bin.h; path = ../../dependency/bgfx/examples/common/imgui/vs_imgui_color.bin.h; sourceTree = "<group>"; };
+		0D3977C82F266E3403EF5619 /* fs_imgui_image.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_imgui_image.bin.h; path = ../../dependency/bgfx/examples/common/imgui/fs_imgui_image.bin.h; sourceTree = "<group>"; };
+		0E5C2F73523E25732BDC470A /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9C3928766F5AF82F9667D9 /* fs_imgui_cubemap.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_imgui_cubemap.bin.h; path = ../../dependency/bgfx/examples/common/imgui/fs_imgui_cubemap.bin.h; sourceTree = "<group>"; };
+		0FFB4C0D41E728094A4B6546 /* entry_asmjs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_asmjs.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_asmjs.cpp; sourceTree = "<group>"; };
+		12F2698A0685386846135F8C /* indexcompressionconstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = indexcompressionconstants.h; path = "../../dependency/bgfx/3rdparty/ib-compress/indexcompressionconstants.h"; sourceTree = "<group>"; };
+		1326265E5E357CA71EDB0574 /* entry_android.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_android.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_android.cpp; sourceTree = "<group>"; };
+		14747E572BD0431E75F53761 /* text_buffer_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = text_buffer_manager.cpp; path = ../../dependency/bgfx/examples/common/font/text_buffer_manager.cpp; sourceTree = "<group>"; };
+		15555242304325BD6DC53740 /* vs_imgui_cubemap.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_imgui_cubemap.bin.h; path = ../../dependency/bgfx/examples/common/imgui/vs_imgui_cubemap.bin.h; sourceTree = "<group>"; };
+		15DB50113F261C0F720333EF /* utf8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = ../../dependency/bgfx/examples/common/font/utf8.h; sourceTree = "<group>"; };
+		19893A3D160C0ED805DC0785 /* readbitstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = readbitstream.h; path = "../../dependency/bgfx/3rdparty/ib-compress/readbitstream.h"; sourceTree = "<group>"; };
+		1A9F52E84B5C766E71693240 /* vs_font_distance_field.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_font_distance_field.bin.h; path = ../../dependency/bgfx/examples/common/font/vs_font_distance_field.bin.h; sourceTree = "<group>"; };
+		1C3F7B2C734413CA42A7556A /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui_draw.cpp"; sourceTree = "<group>"; };
+		2302452F1CCE3FBF560E049D /* input.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = input.cpp; path = ../../dependency/bgfx/examples/common/entry/input.cpp; sourceTree = "<group>"; };
+		245D6E0118055A5B2B1677D0 /* entry_windows.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_windows.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_windows.cpp; sourceTree = "<group>"; };
+		24B240C86CCA30A0139B5886 /* nanovg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nanovg.h; path = ../../dependency/bgfx/examples/common/nanovg/nanovg.h; sourceTree = "<group>"; };
+		256823826C5D238D4685586A /* aviwriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aviwriter.h; path = ../../dependency/bgfx/examples/common/aviwriter.h; sourceTree = "<group>"; };
+		264F0C673F7955757A9B4369 /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../../dependency/bgfx/examples/common/imgui/imgui.cpp; sourceTree = "<group>"; };
+		27FF4DFC7E2423036C0D053C /* stb_rect_pack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_rect_pack.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/stb_rect_pack.h"; sourceTree = "<group>"; };
+		28CA1EC32C10515F276A5A91 /* bgfx_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bgfx_utils.cpp; path = ../../dependency/bgfx/examples/common/bgfx_utils.cpp; sourceTree = "<group>"; };
+		2A531DAF750370B8118F455B /* nanovg_bgfx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nanovg_bgfx.cpp; path = ../../dependency/bgfx/examples/common/nanovg/nanovg_bgfx.cpp; sourceTree = "<group>"; };
+		304E1F54437323D330A839AC /* vs_ocornut_imgui.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_ocornut_imgui.bin.h; path = ../../dependency/bgfx/examples/common/imgui/vs_ocornut_imgui.bin.h; sourceTree = "<group>"; };
+		30C14CB169CC33DB48E05A7C /* vs_imgui_image.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_imgui_image.bin.h; path = ../../dependency/bgfx/examples/common/imgui/vs_imgui_image.bin.h; sourceTree = "<group>"; };
+		32DF1BCE6CA0180B2F5270F3 /* entry_x11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_x11.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_x11.cpp; sourceTree = "<group>"; };
+		32F84077123E76F306775C55 /* vs_nanovg_fill.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_nanovg_fill.bin.h; path = ../../dependency/bgfx/examples/common/nanovg/vs_nanovg_fill.bin.h; sourceTree = "<group>"; };
+		362742C80044156A68885C1F /* entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = entry.h; path = ../../dependency/bgfx/examples/common/entry/entry.h; sourceTree = "<group>"; };
+		37C10AC03A295DD31E781814 /* cube_atlas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cube_atlas.h; path = ../../dependency/bgfx/examples/common/cube_atlas.h; sourceTree = "<group>"; };
+		40F529BD778A477A62253D9E /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui.cpp"; sourceTree = "<group>"; };
+		425F10C6194D52763D6C773F /* entry_sdl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_sdl.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_sdl.cpp; sourceTree = "<group>"; };
+		44986D196BBA6F31792A1F22 /* imgui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui.h"; sourceTree = "<group>"; };
+		44A7368A0423006356A67FA5 /* bounds.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bounds.cpp; path = ../../dependency/bgfx/examples/common/bounds.cpp; sourceTree = "<group>"; };
+		45223CF16D604566525C55E9 /* entry_glfw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_glfw.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_glfw.cpp; sourceTree = "<group>"; };
+		46FC6B5B48BB32B65A8C41E5 /* imgui_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui_internal.h"; sourceTree = "<group>"; };
+		48062435181A3E757F2D47B1 /* fs_ocornut_imgui.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_ocornut_imgui.bin.h; path = ../../dependency/bgfx/examples/common/imgui/fs_ocornut_imgui.bin.h; sourceTree = "<group>"; };
+		4832474D60FA0C2626F30F46 /* vs_font_distance_field_subpixel.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_font_distance_field_subpixel.bin.h; path = ../../dependency/bgfx/examples/common/font/vs_font_distance_field_subpixel.bin.h; sourceTree = "<group>"; };
+		4A10408B43FB46004A1656CF /* nanovg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nanovg.cpp; path = ../../dependency/bgfx/examples/common/nanovg/nanovg.cpp; sourceTree = "<group>"; };
+		4AC15D1106CB691046455482 /* cmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cmd.h; path = ../../dependency/bgfx/examples/common/entry/cmd.h; sourceTree = "<group>"; };
+		4D4D22937EF0517122F65596 /* camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = camera.h; path = ../../dependency/bgfx/examples/common/camera.h; sourceTree = "<group>"; };
+		4DC32E0A56BB43E8191174F3 /* packrect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = packrect.h; path = ../../dependency/bgfx/examples/common/packrect.h; sourceTree = "<group>"; };
+		4E5C334F55F1167A59075D08 /* fs_nanovg_fill.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_nanovg_fill.bin.h; path = ../../dependency/bgfx/examples/common/nanovg/fs_nanovg_fill.bin.h; sourceTree = "<group>"; };
+		4F63601A4F2007CE60F53991 /* fs_font_distance_field.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_font_distance_field.bin.h; path = ../../dependency/bgfx/examples/common/font/fs_font_distance_field.bin.h; sourceTree = "<group>"; };
+		4FC0615F434F68051E882386 /* fs_imgui_color.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_imgui_color.bin.h; path = ../../dependency/bgfx/examples/common/imgui/fs_imgui_color.bin.h; sourceTree = "<group>"; };
+		511741BA51A5743F4CDA7141 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = common.h; path = ../../dependency/bgfx/examples/common/common.h; sourceTree = "<group>"; };
+		51D9427E4952454A79667709 /* imgui_node_graph_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_node_graph_test.cpp; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui_node_graph_test.cpp"; sourceTree = "<group>"; };
+		52D06CFA063421F174C9672A /* text_metrics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = text_metrics.cpp; path = ../../dependency/bgfx/examples/common/font/text_metrics.cpp; sourceTree = "<group>"; };
+		536B578556AD264822533996 /* bgfx_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bgfx_utils.h; path = ../../dependency/bgfx/examples/common/bgfx_utils.h; sourceTree = "<group>"; };
+		55E32EBA43F45FA62E4B49C3 /* utf8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = utf8.cpp; path = ../../dependency/bgfx/examples/common/font/utf8.cpp; sourceTree = "<group>"; };
+		561A2200350675726E653794 /* dbg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dbg.h; path = ../../dependency/bgfx/examples/common/entry/dbg.h; sourceTree = "<group>"; };
+		56420CAE0ECE363D16CB0E00 /* imconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imconfig.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imconfig.h"; sourceTree = "<group>"; };
+		583E53A5289408A62E815FB7 /* stb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_textedit.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/stb_textedit.h"; sourceTree = "<group>"; };
+		5A1346455FFA0A1C7F310AB8 /* indexbufferdecompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = indexbufferdecompression.h; path = "../../dependency/bgfx/3rdparty/ib-compress/indexbufferdecompression.h"; sourceTree = "<group>"; };
+		5C09318610681B8306FC0B03 /* ocornut_imgui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ocornut_imgui.h; path = ../../dependency/bgfx/examples/common/imgui/ocornut_imgui.h; sourceTree = "<group>"; };
+		5CAA421503C61BD05E2575C9 /* droidsans.ttf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = droidsans.ttf.h; path = ../../dependency/bgfx/examples/common/imgui/droidsans.ttf.h; sourceTree = "<group>"; };
+		5CE0603B4C051D4A04BB609E /* ocornut_imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ocornut_imgui.cpp; path = ../../dependency/bgfx/examples/common/imgui/ocornut_imgui.cpp; sourceTree = "<group>"; };
+		5CF512C412EB0E8F3A011E81 /* entry_winrt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_winrt.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_winrt.cpp; sourceTree = "<group>"; };
+		5D0218CB6EDB25BE4B824967 /* imgui_wm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui_wm.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui_wm.h"; sourceTree = "<group>"; };
+		5DEC306639A9665E40025370 /* cube_atlas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cube_atlas.cpp; path = ../../dependency/bgfx/examples/common/cube_atlas.cpp; sourceTree = "<group>"; };
+		5EEC328C03197C2F70AF2F1C /* scintilla.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = scintilla.cpp; path = ../../dependency/bgfx/examples/common/imgui/scintilla.cpp; sourceTree = "<group>"; };
+		5FDC485822072BE165A326C3 /* scintilla.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scintilla.h; path = ../../dependency/bgfx/examples/common/imgui/scintilla.h; sourceTree = "<group>"; };
+		61302C934069247F14985EF2 /* fs_imgui_texture.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_imgui_texture.bin.h; path = ../../dependency/bgfx/examples/common/imgui/fs_imgui_texture.bin.h; sourceTree = "<group>"; };
+		61A52C0D180D7E3E235E5EE5 /* entry.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry.cpp; path = ../../dependency/bgfx/examples/common/entry/entry.cpp; sourceTree = "<group>"; };
+		62916E022A980C10336878C0 /* writebitstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = writebitstream.h; path = "../../dependency/bgfx/3rdparty/ib-compress/writebitstream.h"; sourceTree = "<group>"; };
+		62F746AC481E25B707163396 /* vs_imgui_latlong.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_imgui_latlong.bin.h; path = ../../dependency/bgfx/examples/common/imgui/vs_imgui_latlong.bin.h; sourceTree = "<group>"; };
+		638B486708710F9B19C72FDB /* bounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bounds.h; path = ../../dependency/bgfx/examples/common/bounds.h; sourceTree = "<group>"; };
+		6501245A5D3432C64BE07CBB /* fs_font_basic.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_font_basic.bin.h; path = ../../dependency/bgfx/examples/common/font/fs_font_basic.bin.h; sourceTree = "<group>"; };
+		678366F27BEF098B12D46192 /* vs_imgui_texture.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vs_imgui_texture.bin.h; path = ../../dependency/bgfx/examples/common/imgui/vs_imgui_texture.bin.h; sourceTree = "<group>"; };
+		6797235730675ADC3722730E /* imgui_wm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_wm.cpp; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui_wm.cpp"; sourceTree = "<group>"; };
+		67A1410200E46B675CD35F0A /* fs_imgui_latlong.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_imgui_latlong.bin.h; path = ../../dependency/bgfx/examples/common/imgui/fs_imgui_latlong.bin.h; sourceTree = "<group>"; };
+		67A31D5B0BE530F562A5054C /* memory_editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = memory_editor.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/memory_editor.h"; sourceTree = "<group>"; };
+		67AC24EC79BA550C6A534C17 /* entry_qnx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = entry_qnx.cpp; path = ../../dependency/bgfx/examples/common/entry/entry_qnx.cpp; sourceTree = "<group>"; };
+		67F1076C737036E82DB7260C /* imgui_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/imgui_demo.cpp"; sourceTree = "<group>"; };
+		68252313297F45664E280231 /* indexbufferdecompression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = indexbufferdecompression.cpp; path = "../../dependency/bgfx/3rdparty/ib-compress/indexbufferdecompression.cpp"; sourceTree = "<group>"; };
+		69AE1CE435FE3D145FCA3CC8 /* entry_p.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = entry_p.h; path = ../../dependency/bgfx/examples/common/entry/entry_p.h; sourceTree = "<group>"; };
+		6A2D4ADE52FA238764374E8D /* camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = camera.cpp; path = ../../dependency/bgfx/examples/common/camera.cpp; sourceTree = "<group>"; };
+		6A587BCC25755C8959076121 /* indexbuffercompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = indexbuffercompression.h; path = "../../dependency/bgfx/3rdparty/ib-compress/indexbuffercompression.h"; sourceTree = "<group>"; };
+		6B977E075F4325C05BDB7DBB /* dbg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dbg.cpp; path = ../../dependency/bgfx/examples/common/entry/dbg.cpp; sourceTree = "<group>"; };
+		6F8C52C4372F2AFB23885FFE /* fs_font_distance_field_subpixel.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_font_distance_field_subpixel.bin.h; path = ../../dependency/bgfx/examples/common/font/fs_font_distance_field_subpixel.bin.h; sourceTree = "<group>"; };
+		71CE7D9D3B6E50C328CF6979 /* font_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = font_manager.cpp; path = ../../dependency/bgfx/examples/common/font/font_manager.cpp; sourceTree = "<group>"; };
+		72B023C55BCE1E8166E451C4 /* text_metrics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = text_metrics.h; path = ../../dependency/bgfx/examples/common/font/text_metrics.h; sourceTree = "<group>"; };
+		7429367F754E4B9F717853B9 /* indexbuffercompressionformat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = indexbuffercompressionformat.h; path = "../../dependency/bgfx/3rdparty/ib-compress/indexbuffercompressionformat.h"; sourceTree = "<group>"; };
+		783D63E54DC427851F861C9C /* input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = input.h; path = ../../dependency/bgfx/examples/common/entry/input.h; sourceTree = "<group>"; };
+		78E06AD05A3A56151D97261A /* text_buffer_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = text_buffer_manager.h; path = ../../dependency/bgfx/examples/common/font/text_buffer_manager.h; sourceTree = "<group>"; };
+		7AC00E4E1F574C65028D6C32 /* cmd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cmd.cpp; path = ../../dependency/bgfx/examples/common/entry/cmd.cpp; sourceTree = "<group>"; };
+		7BB55EC86842587260283A11 /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_truetype.h; path = "../../dependency/bgfx/3rdparty/ocornut-imgui/stb_truetype.h"; sourceTree = "<group>"; };
+		7C3B526137BB139D2C1C794E /* font_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = font_manager.h; path = ../../dependency/bgfx/examples/common/font/font_manager.h; sourceTree = "<group>"; };
+		7CF213A4429E7DD67F0B1F72 /* imgui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../../dependency/bgfx/examples/common/imgui/imgui.h; sourceTree = "<group>"; };
+		7D7A59D9129333ED64583ECE /* fs_imgui_image_swizz.bin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fs_imgui_image_swizz.bin.h; path = ../../dependency/bgfx/examples/common/imgui/fs_imgui_image_swizz.bin.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2359570E43E37A141AF65CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E42544E4EF6264A329B4888 /* ocornut-imgui */ = {
+			isa = PBXGroup;
+			children = (
+				56420CAE0ECE363D16CB0E00 /* imconfig.h */,
+				40F529BD778A477A62253D9E /* imgui.cpp */,
+				44986D196BBA6F31792A1F22 /* imgui.h */,
+				67F1076C737036E82DB7260C /* imgui_demo.cpp */,
+				1C3F7B2C734413CA42A7556A /* imgui_draw.cpp */,
+				46FC6B5B48BB32B65A8C41E5 /* imgui_internal.h */,
+				51D9427E4952454A79667709 /* imgui_node_graph_test.cpp */,
+				6797235730675ADC3722730E /* imgui_wm.cpp */,
+				5D0218CB6EDB25BE4B824967 /* imgui_wm.h */,
+				67A31D5B0BE530F562A5054C /* memory_editor.h */,
+				27FF4DFC7E2423036C0D053C /* stb_rect_pack.h */,
+				583E53A5289408A62E815FB7 /* stb_textedit.h */,
+				7BB55EC86842587260283A11 /* stb_truetype.h */,
+			);
+			name = "ocornut-imgui";
+			sourceTree = "<group>";
+		};
+		14364A8C3BBB201C7B821E60 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				256823826C5D238D4685586A /* aviwriter.h */,
+				28CA1EC32C10515F276A5A91 /* bgfx_utils.cpp */,
+				536B578556AD264822533996 /* bgfx_utils.h */,
+				44A7368A0423006356A67FA5 /* bounds.cpp */,
+				638B486708710F9B19C72FDB /* bounds.h */,
+				6A2D4ADE52FA238764374E8D /* camera.cpp */,
+				4D4D22937EF0517122F65596 /* camera.h */,
+				511741BA51A5743F4CDA7141 /* common.h */,
+				5DEC306639A9665E40025370 /* cube_atlas.cpp */,
+				37C10AC03A295DD31E781814 /* cube_atlas.h */,
+				263A6BC63AA7252A3D375D9D /* entry */,
+				143A5265386B00DA6A7067BE /* font */,
+				55EA3C7936720A7E2C3A33B4 /* imgui */,
+				228F45FD0BEE52D36BBB79B3 /* nanovg */,
+				4DC32E0A56BB43E8191174F3 /* packrect.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		143A5265386B00DA6A7067BE /* font */ = {
+			isa = PBXGroup;
+			children = (
+				71CE7D9D3B6E50C328CF6979 /* font_manager.cpp */,
+				7C3B526137BB139D2C1C794E /* font_manager.h */,
+				6501245A5D3432C64BE07CBB /* fs_font_basic.bin.h */,
+				4F63601A4F2007CE60F53991 /* fs_font_distance_field.bin.h */,
+				6F8C52C4372F2AFB23885FFE /* fs_font_distance_field_subpixel.bin.h */,
+				14747E572BD0431E75F53761 /* text_buffer_manager.cpp */,
+				78E06AD05A3A56151D97261A /* text_buffer_manager.h */,
+				52D06CFA063421F174C9672A /* text_metrics.cpp */,
+				72B023C55BCE1E8166E451C4 /* text_metrics.h */,
+				55E32EBA43F45FA62E4B49C3 /* utf8.cpp */,
+				15DB50113F261C0F720333EF /* utf8.h */,
+				033A4D8518453D2860372796 /* vs_font_basic.bin.h */,
+				1A9F52E84B5C766E71693240 /* vs_font_distance_field.bin.h */,
+				4832474D60FA0C2626F30F46 /* vs_font_distance_field_subpixel.bin.h */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		181234436C387ABC58CC316C /* dependency */ = {
+			isa = PBXGroup;
+			children = (
+				510E1C9F72315D3A3BAC179F /* bgfx */,
+			);
+			name = dependency;
+			sourceTree = "<group>";
+		};
+		228F45FD0BEE52D36BBB79B3 /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				0A131C7D466473E050580F45 /* fontstash.h */,
+				4E5C334F55F1167A59075D08 /* fs_nanovg_fill.bin.h */,
+				4A10408B43FB46004A1656CF /* nanovg.cpp */,
+				24B240C86CCA30A0139B5886 /* nanovg.h */,
+				2A531DAF750370B8118F455B /* nanovg_bgfx.cpp */,
+				32F84077123E76F306775C55 /* vs_nanovg_fill.bin.h */,
+			);
+			name = nanovg;
+			sourceTree = "<group>";
+		};
+		263A6BC63AA7252A3D375D9D /* entry */ = {
+			isa = PBXGroup;
+			children = (
+				7AC00E4E1F574C65028D6C32 /* cmd.cpp */,
+				4AC15D1106CB691046455482 /* cmd.h */,
+				6B977E075F4325C05BDB7DBB /* dbg.cpp */,
+				561A2200350675726E653794 /* dbg.h */,
+				61A52C0D180D7E3E235E5EE5 /* entry.cpp */,
+				362742C80044156A68885C1F /* entry.h */,
+				1326265E5E357CA71EDB0574 /* entry_android.cpp */,
+				0FFB4C0D41E728094A4B6546 /* entry_asmjs.cpp */,
+				45223CF16D604566525C55E9 /* entry_glfw.cpp */,
+				0530058A10172CA55DF17A80 /* entry_nacl.cpp */,
+				69AE1CE435FE3D145FCA3CC8 /* entry_p.h */,
+				67AC24EC79BA550C6A534C17 /* entry_qnx.cpp */,
+				425F10C6194D52763D6C773F /* entry_sdl.cpp */,
+				245D6E0118055A5B2B1677D0 /* entry_windows.cpp */,
+				5CF512C412EB0E8F3A011E81 /* entry_winrt.cpp */,
+				32DF1BCE6CA0180B2F5270F3 /* entry_x11.cpp */,
+				2302452F1CCE3FBF560E049D /* input.cpp */,
+				783D63E54DC427851F861C9C /* input.h */,
+			);
+			name = entry;
+			sourceTree = "<group>";
+		};
+		319A55C65D402B1558B25B7F /* ib-compress */ = {
+			isa = PBXGroup;
+			children = (
+				080C15D63D67235C17F07BC5 /* indexbuffercompression.cpp */,
+				6A587BCC25755C8959076121 /* indexbuffercompression.h */,
+				7429367F754E4B9F717853B9 /* indexbuffercompressionformat.h */,
+				68252313297F45664E280231 /* indexbufferdecompression.cpp */,
+				5A1346455FFA0A1C7F310AB8 /* indexbufferdecompression.h */,
+				12F2698A0685386846135F8C /* indexcompressionconstants.h */,
+				19893A3D160C0ED805DC0785 /* readbitstream.h */,
+				62916E022A980C10336878C0 /* writebitstream.h */,
+			);
+			name = "ib-compress";
+			sourceTree = "<group>";
+		};
+		3D2361E71B4F02193E5E2957 /* example-common */ = {
+			isa = PBXGroup;
+			children = (
+				181234436C387ABC58CC316C /* dependency */,
+				6AB53DC335BC577F6E644958 /* Products */,
+			);
+			name = "example-common";
+			sourceTree = "<group>";
+		};
+		510E1C9F72315D3A3BAC179F /* bgfx */ = {
+			isa = PBXGroup;
+			children = (
+				5D77142C57763AF95E6A1C85 /* 3rdparty */,
+				5BF33D2B52DD4ACE62E91E5F /* examples */,
+			);
+			name = bgfx;
+			sourceTree = "<group>";
+		};
+		55EA3C7936720A7E2C3A33B4 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA421503C61BD05E2575C9 /* droidsans.ttf.h */,
+				4FC0615F434F68051E882386 /* fs_imgui_color.bin.h */,
+				0F9C3928766F5AF82F9667D9 /* fs_imgui_cubemap.bin.h */,
+				0D3977C82F266E3403EF5619 /* fs_imgui_image.bin.h */,
+				7D7A59D9129333ED64583ECE /* fs_imgui_image_swizz.bin.h */,
+				67A1410200E46B675CD35F0A /* fs_imgui_latlong.bin.h */,
+				61302C934069247F14985EF2 /* fs_imgui_texture.bin.h */,
+				48062435181A3E757F2D47B1 /* fs_ocornut_imgui.bin.h */,
+				264F0C673F7955757A9B4369 /* imgui.cpp */,
+				7CF213A4429E7DD67F0B1F72 /* imgui.h */,
+				5CE0603B4C051D4A04BB609E /* ocornut_imgui.cpp */,
+				5C09318610681B8306FC0B03 /* ocornut_imgui.h */,
+				5EEC328C03197C2F70AF2F1C /* scintilla.cpp */,
+				5FDC485822072BE165A326C3 /* scintilla.h */,
+				0C8061E07384115376387EBC /* vs_imgui_color.bin.h */,
+				15555242304325BD6DC53740 /* vs_imgui_cubemap.bin.h */,
+				30C14CB169CC33DB48E05A7C /* vs_imgui_image.bin.h */,
+				62F746AC481E25B707163396 /* vs_imgui_latlong.bin.h */,
+				678366F27BEF098B12D46192 /* vs_imgui_texture.bin.h */,
+				304E1F54437323D330A839AC /* vs_ocornut_imgui.bin.h */,
+			);
+			name = imgui;
+			sourceTree = "<group>";
+		};
+		5BF33D2B52DD4ACE62E91E5F /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				14364A8C3BBB201C7B821E60 /* common */,
+			);
+			name = examples;
+			sourceTree = "<group>";
+		};
+		5D77142C57763AF95E6A1C85 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				319A55C65D402B1558B25B7F /* ib-compress */,
+				0E42544E4EF6264A329B4888 /* ocornut-imgui */,
+			);
+			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		6AB53DC335BC577F6E644958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E5C2F73523E25732BDC470A /* lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F5702BB063A73D2102E4D4D /* example-common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300618B76708250909707897 /* Build configuration list for PBXNativeTarget "example-common" */;
+			buildPhases = (
+				6A65096E588363115F5E4EE9 /* Resources */,
+				34C412560F614703094A15D8 /* Sources */,
+				2359570E43E37A141AF65CF4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "example-common";
+			productName = "example-common";
+			productReference = 0E5C2F73523E25732BDC470A /* lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example-common" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2361E71B4F02193E5E2957 /* example-common */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F5702BB063A73D2102E4D4D /* example-common */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A65096E588363115F5E4EE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C412560F614703094A15D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB33002300938EB2ABE08D6 /* indexbuffercompression.cpp in Sources */,
+				20E5563518085E4D79912FF8 /* indexbufferdecompression.cpp in Sources */,
+				27077BAF77DB3D130A887DB8 /* imgui.cpp in Sources */,
+				7F7103FA32BB0E3F3A374986 /* imgui_demo.cpp in Sources */,
+				516869AE511A494426C25BA2 /* imgui_draw.cpp in Sources */,
+				6B5678D87B031E110718353B /* imgui_node_graph_test.cpp in Sources */,
+				3046088B5CBD016051CF0380 /* imgui_wm.cpp in Sources */,
+				3117231F395919597B921982 /* bgfx_utils.cpp in Sources */,
+				1EC37C0E23270B201F9C69AD /* bounds.cpp in Sources */,
+				3D0937A2261213B75DEB4866 /* camera.cpp in Sources */,
+				16392A2F1E4E69344DB70286 /* cube_atlas.cpp in Sources */,
+				3DA760791C99775146D75C9B /* cmd.cpp in Sources */,
+				3DD502156981787C273F26B8 /* dbg.cpp in Sources */,
+				5AD96E203BF761A55731023C /* entry.cpp in Sources */,
+				236074F5277458676A6815DA /* entry_android.cpp in Sources */,
+				06EE2525536642E506CA2A97 /* entry_asmjs.cpp in Sources */,
+				218665827C477FBB622A1B22 /* entry_glfw.cpp in Sources */,
+				427F6DEC468D046715F510D8 /* entry_nacl.cpp in Sources */,
+				2AF50BDA3199273C0B9613C3 /* entry_qnx.cpp in Sources */,
+				4CF77FEB652B138404537B21 /* entry_sdl.cpp in Sources */,
+				172412C21CBC10DE67CF0710 /* entry_windows.cpp in Sources */,
+				22527C602F483BA04ED76CB4 /* entry_winrt.cpp in Sources */,
+				132C53B05EF52B322E0B0A0B /* entry_x11.cpp in Sources */,
+				46D03303176259BB41935164 /* input.cpp in Sources */,
+				5ACF4BD12EA9779D0B9104B7 /* font_manager.cpp in Sources */,
+				47D5723009C37F9105CE35E0 /* text_buffer_manager.cpp in Sources */,
+				5B82645639EE12B10F515D76 /* text_metrics.cpp in Sources */,
+				1586272C34946FC07D41522B /* utf8.cpp in Sources */,
+				2B8F78151D433E232C02019B /* imgui.cpp in Sources */,
+				7C3D4CC104D314580B370401 /* ocornut_imgui.cpp in Sources */,
+				7DCB6DA142C0406A6B7841CB /* scintilla.cpp in Sources */,
+				27937A6576246B061E3826CC /* nanovg.cpp in Sources */,
+				7FFE5FEB78AB55F0766651B3 /* nanovg_bgfx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A695D4571BD0537191E2D1D /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					"DM_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/bx/include,
+					../../dependency/bgfx/include,
+					../../dependency/bgfx/3rdparty,
+				);
+				OBJROOT = "../../_build/osx32_xcode4/obj/x32/Debug/example-common";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m32",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx32_xcode4/bin;
+			};
+			name = "Debug Native 32-bit";
+		};
+		43D240C40C2C1F0D256E003C /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/bx/include,
+					../../dependency/bgfx/include,
+					../../dependency/bgfx/3rdparty,
+				);
+				OBJROOT = "../../_build/osx32_xcode4/obj/x32/Release/example-common";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m32",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx32_xcode4/bin;
+			};
+			name = "Release Native 32-bit";
+		};
+		58803FD75D824A3D450F76A0 /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = ../../_build/osx64_xcode4/bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "example-commonRelease";
+			};
+			name = "Release Native 64-bit";
+		};
+		63A93E5744F55C760E0815F8 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					"DM_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/bx/include,
+					../../dependency/bgfx/include,
+					../../dependency/bgfx/3rdparty,
+				);
+				OBJROOT = "../../_build/osx64_xcode4/obj/x64/Debug/example-common";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m64",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx64_xcode4/bin;
+			};
+			name = "Debug Native 64-bit";
+		};
+		75E542E062A9248945345652 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INSTALL_PATH = /usr/local/lib;
+				LD_MAP_FILE_PATH = "";
+				OBJROOT = "";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "";
+				SHARED_PRECOMPS_DIR = "";
+				SYMROOT = "";
+			};
+			name = "Release Native 32-bit";
+		};
+		775B40BB797B02EC7E3E5CF7 /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/bx/include,
+					../../dependency/bgfx/include,
+					../../dependency/bgfx/3rdparty,
+				);
+				OBJROOT = "../../_build/osx64_xcode4/obj/x64/Release/example-common";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m64",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx64_xcode4/bin;
+			};
+			name = "Release Native 64-bit";
+		};
+		7B9035D95B3A64A974103973 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INSTALL_PATH = /usr/local/lib;
+				LD_MAP_FILE_PATH = "";
+				OBJROOT = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "";
+				SHARED_PRECOMPS_DIR = "";
+				SYMROOT = "";
+			};
+			name = "Debug Native 32-bit";
+		};
+		7BAB02DA0B903D83637C3A37 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = ../../_build/osx64_xcode4/bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "example-commonDebug";
+			};
+			name = "Debug Native 64-bit";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example-common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A695D4571BD0537191E2D1D /* Debug Native 32-bit */,
+				63A93E5744F55C760E0815F8 /* Debug Native 64-bit */,
+				43D240C40C2C1F0D256E003C /* Release Native 32-bit */,
+				775B40BB797B02EC7E3E5CF7 /* Release Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Native 64-bit";
+		};
+		300618B76708250909707897 /* Build configuration list for PBXNativeTarget "example-common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9035D95B3A64A974103973 /* Debug Native 32-bit */,
+				7BAB02DA0B903D83637C3A37 /* Debug Native 64-bit */,
+				75E542E062A9248945345652 /* Release Native 32-bit */,
+				58803FD75D824A3D450F76A0 /* Release Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Native 64-bit";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

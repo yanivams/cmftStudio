@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24644CFC156D6B4013C32EFE /* printcallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 223346BD248033162F307E4A /* printcallback.cpp */; };
+		31AA31023E0E718C57C80C6B /* image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A87A82609349C87E43209C /* image.cpp */; };
+		32BF1D723FE226C54E5D22FA /* clcontext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E5454C7541F03C1400867E2 /* clcontext.cpp */; };
+		405605BF0303055F509A5E1C /* cubemapfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D717EEB3CBD7432364A687B /* cubemapfilter.cpp */; };
+		4F741A8745084ADB5B191134 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 308E19C366C1375F2BBD4C24 /* stb_image.cpp */; };
+		7A9223D210E2687259CA714E /* allocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1381635251C95347054561A0 /* allocator.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D717EEB3CBD7432364A687B /* cubemapfilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cubemapfilter.cpp; path = ../../dependency/cmft/src/cmft/cubemapfilter.cpp; sourceTree = "<group>"; };
+		1381635251C95347054561A0 /* allocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = allocator.cpp; path = ../../dependency/cmft/src/cmft/allocator.cpp; sourceTree = "<group>"; };
+		148765390B575145596C41A2 /* radiance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = radiance.h; path = ../../dependency/cmft/src/cmft/radiance.h; sourceTree = "<group>"; };
+		16931C245B696E860C2E0BCC /* cubemaputils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cubemaputils.h; path = ../../dependency/cmft/src/cmft/cubemaputils.h; sourceTree = "<group>"; };
+		1E8C2F416DE035F7606B3559 /* cubemapfilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cubemapfilter.h; path = ../../dependency/cmft/include/cmft/cubemapfilter.h; sourceTree = "<group>"; };
+		223346BD248033162F307E4A /* printcallback.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = printcallback.cpp; path = ../../dependency/cmft/src/cmft/base/printcallback.cpp; sourceTree = "<group>"; };
+		308E19C366C1375F2BBD4C24 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stb_image.cpp; path = ../../dependency/cmft/src/cmft/base/stb_image.cpp; sourceTree = "<group>"; };
+		360A496502274ACC64B75FD0 /* allocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = allocator.h; path = ../../dependency/cmft/include/cmft/allocator.h; sourceTree = "<group>"; };
+		36AB001506D011FA65621815 /* fpumath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fpumath.h; path = ../../dependency/cmft/src/cmft/base/fpumath.h; sourceTree = "<group>"; };
+		3D58558E28FA026D2B4C7D75 /* image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = image.h; path = ../../dependency/cmft/include/cmft/image.h; sourceTree = "<group>"; };
+		443C450753800B1872A67FA3 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../dependency/cmft/src/cmft/base/config.h; sourceTree = "<group>"; };
+		4B897D4C57F2700930630722 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = ../../dependency/cmft/src/cmft/base/stb_image.h; sourceTree = "<group>"; };
+		520E74FA3FC521F30FD7274A /* clcontext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clcontext.h; path = ../../dependency/cmft/include/cmft/clcontext.h; sourceTree = "<group>"; };
+		5B082FBB57DE0A17017F2E34 /* callbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = callbacks.h; path = ../../dependency/cmft/include/cmft/callbacks.h; sourceTree = "<group>"; };
+		5D6A57FF740530EA631866AC /* printcallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = printcallback.h; path = ../../dependency/cmft/src/cmft/base/printcallback.h; sourceTree = "<group>"; };
+		6E5454C7541F03C1400867E2 /* clcontext.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = clcontext.cpp; path = ../../dependency/cmft/src/cmft/clcontext.cpp; sourceTree = "<group>"; };
+		6E5B71C563466A3F1E935676 /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC978E47B6740924C2B00AD /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = macros.h; path = ../../dependency/cmft/src/cmft/base/macros.h; sourceTree = "<group>"; };
+		75A87A82609349C87E43209C /* image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = image.cpp; path = ../../dependency/cmft/src/cmft/image.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC11B6D271A59196CB20086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6F072C5B4E654D11445CCE /* cmft */ = {
+			isa = PBXGroup;
+			children = (
+				1381635251C95347054561A0 /* allocator.cpp */,
+				1DCC172246DC46C619907229 /* base */,
+				6E5454C7541F03C1400867E2 /* clcontext.cpp */,
+				0D717EEB3CBD7432364A687B /* cubemapfilter.cpp */,
+				16931C245B696E860C2E0BCC /* cubemaputils.h */,
+				75A87A82609349C87E43209C /* image.cpp */,
+				148765390B575145596C41A2 /* radiance.h */,
+			);
+			name = cmft;
+			sourceTree = "<group>";
+		};
+		1DCC172246DC46C619907229 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				443C450753800B1872A67FA3 /* config.h */,
+				36AB001506D011FA65621815 /* fpumath.h */,
+				6EC978E47B6740924C2B00AD /* macros.h */,
+				223346BD248033162F307E4A /* printcallback.cpp */,
+				5D6A57FF740530EA631866AC /* printcallback.h */,
+				308E19C366C1375F2BBD4C24 /* stb_image.cpp */,
+				4B897D4C57F2700930630722 /* stb_image.h */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		1F6A4695176A312947790761 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				752373A1451555BD547B2909 /* cmft */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		2B76615646DB2D9E2C232B93 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F072C5B4E654D11445CCE /* cmft */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		39C119C347613CC41F2317FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5B71C563466A3F1E935676 /* lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B03780D2F0F51C4565547F6 /* dependency */ = {
+			isa = PBXGroup;
+			children = (
+				737A11914FE51ADC67857C99 /* cmft */,
+			);
+			name = dependency;
+			sourceTree = "<group>";
+		};
+		737A11914FE51ADC67857C99 /* cmft */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A4695176A312947790761 /* include */,
+				2B76615646DB2D9E2C232B93 /* src */,
+			);
+			name = cmft;
+			sourceTree = "<group>";
+		};
+		74EA591E14C21B515DA9103C /* cmft */ = {
+			isa = PBXGroup;
+			children = (
+				4B03780D2F0F51C4565547F6 /* dependency */,
+				39C119C347613CC41F2317FC /* Products */,
+			);
+			name = cmft;
+			sourceTree = "<group>";
+		};
+		752373A1451555BD547B2909 /* cmft */ = {
+			isa = PBXGroup;
+			children = (
+				360A496502274ACC64B75FD0 /* allocator.h */,
+				5B082FBB57DE0A17017F2E34 /* callbacks.h */,
+				520E74FA3FC521F30FD7274A /* clcontext.h */,
+				1E8C2F416DE035F7606B3559 /* cubemapfilter.h */,
+				3D58558E28FA026D2B4C7D75 /* image.h */,
+			);
+			name = cmft;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		552401034F6F246B51B008C5 /* cmft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE135B63421764A243D404F /* Build configuration list for PBXNativeTarget "cmft" */;
+			buildPhases = (
+				021719E63AD162AB63AE3914 /* Resources */,
+				034715586A17415606E541E0 /* Sources */,
+				4DC11B6D271A59196CB20086 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cmft;
+			productName = cmft;
+			productReference = 6E5B71C563466A3F1E935676 /* lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "cmft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74EA591E14C21B515DA9103C /* cmft */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				552401034F6F246B51B008C5 /* cmft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		021719E63AD162AB63AE3914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034715586A17415606E541E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9223D210E2687259CA714E /* allocator.cpp in Sources */,
+				24644CFC156D6B4013C32EFE /* printcallback.cpp in Sources */,
+				4F741A8745084ADB5B191134 /* stb_image.cpp in Sources */,
+				32BF1D723FE226C54E5D22FA /* clcontext.cpp in Sources */,
+				405605BF0303055F509A5E1C /* cubemapfilter.cpp in Sources */,
+				31AA31023E0E718C57C80C6B /* image.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A641ED206C05E4718E721B6 /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INSTALL_PATH = /usr/local/lib;
+				LD_MAP_FILE_PATH = "";
+				OBJROOT = "";
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				PRODUCT_MODULE_NAME = "";
+				PRODUCT_NAME = "";
+				SHARED_PRECOMPS_DIR = "";
+				SYMROOT = "";
+			};
+			name = "Release Native 32-bit";
+		};
+		2C273DB3609A60DA63F3604C /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/cmft/dependency,
+					../../dependency/cmft/dependency/dm/include,
+					../../dependency/cmft/dependency/bx/include,
+					../../dependency/cmft/dependency/bx/3rdparty,
+					../../dependency/cmft/include,
+					../../dependency/cmft/src/cmft,
+				);
+				OBJROOT = ../../_build/osx64_xcode4/obj/x64/Release/cmft;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m64",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx64_xcode4/bin;
+			};
+			name = "Release Native 64-bit";
+		};
+		3B3C07EF276255F42CB4048D /* Release Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/cmft/dependency,
+					../../dependency/cmft/dependency/dm/include,
+					../../dependency/cmft/dependency/bx/include,
+					../../dependency/cmft/dependency/bx/3rdparty,
+					../../dependency/cmft/include,
+					../../dependency/cmft/src/cmft,
+				);
+				OBJROOT = ../../_build/osx32_xcode4/obj/x32/Release/cmft;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m32",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx32_xcode4/bin;
+			};
+			name = "Release Native 32-bit";
+		};
+		4DBC1CA034B226407FB11410 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = ../../_build/osx64_xcode4/bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = cmftDebug;
+			};
+			name = "Debug Native 64-bit";
+		};
+		5F0F1AD111BE00E36FF643F9 /* Release Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = ../../_build/osx64_xcode4/bin;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = cmftRelease;
+			};
+			name = "Release Native 64-bit";
+		};
+		6E1D0D3121D35525323B2B44 /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					"DM_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/cmft/dependency,
+					../../dependency/cmft/dependency/dm/include,
+					../../dependency/cmft/dependency/bx/include,
+					../../dependency/cmft/dependency/bx/3rdparty,
+					../../dependency/cmft/include,
+					../../dependency/cmft/src/cmft,
+				);
+				OBJROOT = ../../_build/osx32_xcode4/obj/x32/Debug/cmft;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m32",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx32_xcode4/bin;
+			};
+			name = "Debug Native 32-bit";
+		};
+		6F0805AB1AB724C45D2B091B /* Debug Native 32-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INSTALL_PATH = /usr/local/lib;
+				LD_MAP_FILE_PATH = "";
+				OBJROOT = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				PRODUCT_MODULE_NAME = "";
+				PRODUCT_NAME = "";
+				SHARED_PRECOMPS_DIR = "";
+				SYMROOT = "";
+			};
+			name = "Debug Native 32-bit";
+		};
+		752A34762667048B7B792FB1 /* Debug Native 64-bit */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENTRY_CONFIG_IMPLEMENT_DEFAULT_ALLOCATOR=0",
+					"BX_CONFIG_ENABLE_MSVC_LEVEL4_WARNINGS=1",
+					"ENTRY_DEFAULT_WIDTH=1920",
+					"ENTRY_DEFAULT_HEIGHT=1027",
+					"BGFX_CONFIG_RENDERER_OPENGL=21",
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					"DM_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../dependency/bx/include/compat/osx,
+					../../dependency/cmft/dependency,
+					../../dependency/cmft/dependency/dm/include,
+					../../dependency/cmft/dependency/bx/include,
+					../../dependency/cmft/dependency/bx/3rdparty,
+					../../dependency/cmft/include,
+					../../dependency/cmft/src/cmft,
+				);
+				OBJROOT = ../../_build/osx64_xcode4/obj/x64/Debug/cmft;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-Wfatal-errors",
+					"-msse4.1",
+					"-Wunused-value",
+					"-Wundef",
+					"-stdlib=libc++",
+					"-m64",
+				);
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../_build/osx64_xcode4/bin;
+			};
+			name = "Debug Native 64-bit";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE135B63421764A243D404F /* Build configuration list for PBXNativeTarget "cmft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0805AB1AB724C45D2B091B /* Debug Native 32-bit */,
+				4DBC1CA034B226407FB11410 /* Debug Native 64-bit */,
+				1A641ED206C05E4718E721B6 /* Release Native 32-bit */,
+				5F0F1AD111BE00E36FF643F9 /* Release Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Native 64-bit";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "cmft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1D0D3121D35525323B2B44 /* Debug Native 32-bit */,
+				752A34762667048B7B792FB1 /* Debug Native 64-bit */,
+				3B3C07EF276255F42CB4048D /* Release Native 32-bit */,
+				2C273DB3609A60DA63F3604C /* Release Native 64-bit */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug Native 64-bit";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
