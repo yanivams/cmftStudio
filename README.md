@@ -65,7 +65,7 @@ Installing
 Building
 --------
 
-	git clone --recurse-submodules http://github.com/dariomanesku/cmftStudio.git
+	git clone --recurse-submodules http://github.com/yanivams/cmftStudio.git
 	cd cmftStudio
 	make
 
