@@ -6,7 +6,7 @@
 	url = https://github.com/dariomanesku/bgfx
 [submodule "dependency/cmft"]
 	path = dependency/cmft
-	url = https://github.com/dariomanesku/cmft
+	url = https://github.com/yanivams/cmft
 [submodule "dependency/dm"]
 	path = dependency/dm
 url=https://github.com/yanivams/dm
